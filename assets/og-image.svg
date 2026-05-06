@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="1" stop-color="#06182E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.05" r="0.7">
+      <stop offset="0" stop-color="#11A081" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#11A081" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Mark -->
+  <g transform="translate(80, 80)">
+    <rect width="84" height="84" rx="20" fill="#0A2540" stroke="rgba(255,255,255,0.08)"/>
+    <path d="M22 32c0-6 4.6-10 12-10h16" stroke="#11A081" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M62 52c0 6-4.6 10-12 10H34" stroke="#11A081" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="62" cy="28" r="4" fill="#C8A961"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="184" y="138" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#9DAEC4" font-weight="600" letter-spacing="6">SRED FINANCIAL INC.</text>
+
+  <!-- Headline -->
+  <text x="80" y="300" font-family="Fraunces, Georgia, serif" font-size="72" font-weight="500" fill="#FFFFFF" letter-spacing="-2">Maximize your SR&amp;ED refund.</text>
+  <text x="80" y="386" font-family="Fraunces, Georgia, serif" font-size="72" font-weight="500" fill="#11A081" letter-spacing="-2" font-style="italic">Keep more of it.</text>
+
+  <text x="80" y="456" font-family="Inter, system-ui, sans-serif" font-size="24" fill="#9DAEC4" font-weight="400">Audit-defensible claims · Lower-than-industry contingency fees</text>
+
+  <!-- Tag -->
+  <g transform="translate(80, 510)">
+    <rect width="220" height="46" rx="23" fill="rgba(17,160,129,0.15)" stroke="rgba(17,160,129,0.3)"/>
+    <text x="110" y="30" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#6BD3B0" font-weight="700" letter-spacing="2">CANADIAN SR&amp;ED SPECIALISTS</text>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="80" y1="580" x2="1120" y2="580" stroke="rgba(255,255,255,0.08)"/>
+</svg>
